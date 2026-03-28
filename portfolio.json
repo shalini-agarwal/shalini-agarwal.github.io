@@ -24,6 +24,11 @@
             "label": "LeetCode",
             "url": "https://leetcode.com/u/shalini_agarwal/",
             "svg_path": "img/github.svg"
+        },
+        {
+            "label": "Resume",
+            "url": "https://shalini-agarwal.github.io/resume/resume.pdf",
+            "svg_path": "img/resume.svg"
         }
     ],
     "work_experience": [

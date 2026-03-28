@@ -1,0 +1,232 @@
+{
+    "name": "Shalini Agarwal",
+    "label": "Software Developer",
+    "image_path": "portfolio_media/profile-ghc.jpg",
+    "contact": {
+        "email": "shalini.agarwal929@gmail.com",
+        "phone": "",
+        "location": "Dallas, TX"
+    },
+    "summary": "Software engineer with 5+ years building scalable systems - from data pipelines and APIs to conversational AI.",
+    "base_url": "127.0.0.1:5500",
+    "social_links": [
+        {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/shalini-agarwal/",
+            "svg_path": "img/linkedin.svg"
+        },
+        {
+            "label": "GitHub",
+            "url": "https://github.com/shalini-agarwal/",
+            "svg_path": "img/github.svg"
+        },
+        {
+            "label": "LeetCode",
+            "url": "https://leetcode.com/u/shalini_agarwal/",
+            "svg_path": "img/github.svg"
+        }
+    ],
+    "work_experience": [
+        {
+            "company": "RF SUNY",
+            "position": "Research Software Engineer",
+            "url": "https://ubwp.buffalo.edu/cadl/",
+            "start_date": "June 2024",
+            "end_date": "February 2026",
+            "summary": "Worked at the CADL lab (Communicative Assistive Device Laboratory) to develop assistive technologies for AAC (Augmentative & Assistive Communication) device users.",
+            "highlights": [
+                "Built a production-grade real-time conversational backend using FastAPI and WebSockets, cutting LLM response latency by 50% through prompt engineering, RAG strategies, and pipeline optimizations.",
+                "Engineered a resilient system capable of handling 8+ runtime failure modes with schema validation, retries, and memory pipelines that preserved conversational context across 20 turns per session.",
+                "Expanded observability with Prometheus & Grafana, reducing metric noise by 30% and enabling end-to-end visibility into system performance and conversation history."
+                ]
+        },
+        {
+            "company": "Wipro Technologies",
+            "position": "Senior Software Engineer",
+            "url": "https://www.wipro.com/",
+            "start_date": "Junly 2019",
+            "end_date": "August 2022",
+            "summary": "Worked in the Health IP & Innovations Team developing PoCs for clients in the health care industry.",
+            "highlights": [
+                "Built a cloud-enabled Power BI analytics platform for clinical trial decision-making, integrating 5,900+ records from 4 public databases into a 7-screen dashboard with 15+ visualizations per screen.",
+                "Engineered AI-powered healthcare tools including an ICD-10AM medical coding system achieving 80% diagnostic accuracy on 2,000+ EHRs, and an OCR-based chart indexing tool that processed 100,000+ files with a 50% reduction in processing time.",
+                "Developed 3 Alexa-powered voice assistants for lab scientists, deployed on AWS Lambda with DynamoDB integration, covering inventory management, safety guidance, and experiment knowledge."
+               ]
+        },
+        {
+            "company": "Yahoo",
+            "position": "Software Engineer Intern",
+            "url": "https://www.yahooinc.com/",
+            "start_date": "May 2023",
+            "end_date": "June 2023",
+            "summary": "Worked in the Content Management System team responsible for ingesting and processing content for all Yahoo properties such as News, Finance, Sports etc.",
+            "highlights": [
+                "Developed an article display time feature across all Yahoo properties, enhancing SEO and enriching internal CMS editorial capabilities",
+                "Utilized Docker, Screwdriver CI/CD & unit testing with Pytest to deploy the feature ensuring reliable testing, deployment, and maintainability"
+               ]
+        },
+        {
+            "company": "RF SUNY",
+            "position": "Research Assistant",
+            "url": "https://conversational-ai-for-social-good.netlify.app/",
+            "start_date": "January 2023",
+            "end_date": "December 2023",
+            "summary": "Worked in Dr. Rohini Srihari's research group - 'Conversational AI for Social Good' discussing latest research work in NLP and was also part of an NSF-funded project carried out in collaboration with 3 US universities.",
+            "highlights": [
+                "Architected an NLP-based conversational AI chatbot for an NSF-funded project combating disinformation among senior citizens, using Rasa and AWS EC2 & S3 services",
+                "Integrated LLM from Hugging Face into Rasa to enable neural response generation, advancing research in NLP & conversational AI for social good"
+               ]
+        },
+        {
+            "company": "University at Buffalo - Department of Computer Science and Engineering",
+            "position": "Teaching Assistant",
+            "url": "https://sayantan-world.github.io/cse535-2023/main/2023/index.html",
+            "start_date": "January 2023",
+            "end_date": "December 2023",
+            "summary": "Worked as a Grader for two courses in Spring and Fall of 2023 - NLP & Text Mining & Information Retrieval respectively.",
+            "highlights": [
+                "Mentored two graduate classes of 65+ & 80+ students for courses Information Retrieval and NLP & Text Mining resp",
+                "Guided students on projects, supervised grading activities, and facilitated in course management & organization"
+               ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "FastAPI Blogging Website",
+            "summary": "",
+            "url": "https://github.com/shalini-agarwal/FastAPI-blog",
+            "highlights": [
+                "Built a full‑stack blog application with FastAPI, serving both RESTful JSON APIs and server‑rendered HTML pages using Jinja2.",
+                "Implemented an async CRUD backend with SQLAlchemy and Pydantic, focusing on validation, clean architecture, and modular routing.",
+                "Added JWT‑based authentication and authorization, enforcing protected routes and ownership checks, with frontend interactions handled via JavaScript and Fetch API."
+            ],
+            "images": [
+                 {
+                    "img_path": "portfolio_media/fastapi-blog-fe.png",
+                    "caption": "Blog Application UI"
+                },
+                {
+                    "img_path": "portfolio_media/fastapi-blog-docs.png",
+                    "caption": "FastAPI Docs"
+                }
+            ]
+        },
+        {
+            "title": "Information retrieval (IR) chatbot",
+            "summary": "",
+            "url": "https://github.com/shalini-agarwal/chatbot",
+            "highlights": [
+                "Built an end-to-end IR chatbot with conversational capabilities, leveraging Reddit data scraped via the Pushshift API, indexed and ranked in Apache Solr using BM25 similarity.",
+                "Delivered a full-stack web application with a Vue.js frontend, Flask/Python backend, and deployed it on GCP, demonstrating end-to-end ownership from data engineering to production hosting."
+            ],
+            "images": [
+                {
+                    "img_path": "portfolio_media/ir-chatbot-demo.png",
+                    "caption": "Live chat demo"
+                }
+            ]
+        },
+        {
+            "title": "Chess Playing Robot",
+            "summary": "",
+            "url": "",
+            "highlights": [
+                "Engineered a 4-DOF chess-playing robotic arm in PTC Creo, applying inverse kinematics and computer vision to execute autonomous pick-and-place operations via a custom piece recognition algorithm.",
+                "Developed the full hardware-software integration — designing arm links, gripper, and base mechanical components while programming end-to-end control logic using MATLAB, Arduino, and C++."
+            ],
+            "images": [
+                {
+                    "img_path": "portfolio_media/chess-playing-robot.jpg",
+                    "caption": "Robotic arm in action"
+                }
+            ]
+        }
+    ],
+    "volunteer_experience": [
+        {
+            "organization": "Har Hath Kalam",
+            "position": "Teacher & Content Writer",
+            "url": "https://harhathkalam.org/",
+            "start_date": "2015",
+            "end_date": "2019",
+            "summary": "Provided teaching and content writing services to underpriviledged slum kids near my University campus.",
+            "highlights": [
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University at Buffalo",
+            "location": "New York, United States",
+            "url": "",
+            "degrees": [
+                "Master of Science in Computer Science and Engineering"
+            ],
+            "honors": ["Deptt. of Computer Science Grace Hopper Celebration Scholarship 2023"],
+            "gpa_cumulative": "3.67",
+            "graduation_date": "December 2023"
+        },
+        {
+            "institution": "Thapar Institue of Engineering and Technology",
+            "location": "Punjab, India",
+            "url": "",
+            "degrees": [
+                "Bachelor of Technology in Electronics (Instrumentation & Control) Engineering"
+            ],
+            "honors": ["Merit Scholarship 2017 & 2018"],
+            "gpa_cumulative": "3.8",
+            "graduation_date": "July 2019"
+        
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python, REST API, Flask, Cloud Computing (AWS, GPU), HTML/CSS",
+            "proficiency": 100,
+            "proficiency_label": "Expert"
+        },
+        {
+            "name": "Linux, Javascript, SQL",
+            "proficiency": 80,
+            "proficiency_label": "Advanced"
+        },
+        {
+            "name": "C++, Java",
+            "proficiency": 60,
+            "proficiency_label": "Comfortable"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Outdoor Sports & Activities",
+            "summary": "Badminton, Tennis, Swimming, Running, Hiking",
+            "images": [
+                {
+                "img_path": "portfolio_media/hiking-rocky.jpg",
+                "caption": "Hiking in Rocky Mountains, Colorado"
+                },
+                {
+                "img_path": "portfolio_media/camping.jpg",
+                "caption": "Camping in Allegany State Park, New York"
+                }
+            ]
+        },
+        {
+            "name": "Creative Arts",
+            "summary": "Thread & Needle Work",
+            "images": [
+                {
+                "img_path": "portfolio_media/crochet.jpg",
+                "caption": "Crochet Roses"
+                },
+                {
+                "img_path": "portfolio_media/cross-stitch.jpg",
+                "caption": "Embroidery"
+                }
+            ]
+        } 
+    ]
+
+
+
+}

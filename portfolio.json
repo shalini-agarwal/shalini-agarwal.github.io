@@ -5,7 +5,7 @@
     "contact": {
         "email": "shalini.agarwal929@gmail.com",
         "phone": "",
-        "location": "Dallas, TX"
+        "location": "Open to relocation (Global)"
     },
     "summary": "Software engineer with 5+ years building scalable systems - from data pipelines and APIs to conversational AI.",
     "base_url": "127.0.0.1:5500",
@@ -23,7 +23,7 @@
         {
             "label": "LeetCode",
             "url": "https://leetcode.com/u/shalini_agarwal/",
-            "svg_path": "img/github.svg"
+            "svg_path": "img/leetcode.svg"
         },
         {
             "label": "Resume",

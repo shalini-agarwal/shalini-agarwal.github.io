@@ -135,6 +135,42 @@
             </section>
           {% endif %}
 
+          {% if publications %}
+            <section>
+              <h2 class="section-heading">Publications</h2>
+              {% for publication in publications %}
+                <section>
+                  <h3>
+                    {% if publication.url %}
+                      <a href="{{ publication.url }}">{{ publication.title }}</a>
+                    {% else %}
+                      {{ publication.title }}
+                    {% endif %}
+                  </h3>
+                  {% if publication.summary %}<p>{{ publication.summary }}</p>{% endif %}
+                  {% if publication.highlights %}
+                    <ul>
+                      {% for highlight in publication.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if publication.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in publication.images %}
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+          
           {% if projects %}
             <section>
               <h2 class="section-heading">Projects</h2>

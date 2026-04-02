@@ -117,7 +117,7 @@
             ]
         },
         {
-            "title": "Information retrieval (IR) chatbot",
+            "title": "Information Retrieval (IR) Chatbot",
             "summary": "",
             "url": "https://github.com/shalini-agarwal/chatbot",
             "highlights": [
@@ -149,12 +149,12 @@
     ],
     "publications": [
         {
-            "title": "SPICA: Scalable and Personalized Conversational Agent Framework for AAC Users",
+            "title": "ACM, IUI'26 Conference: SPICA: Scalable and Personalized Conversational Agent Framework for AAC Users",
             "summary": "AAC (Augmentative and Alternative Communication) users often struggle to express themselves naturally in conversation. SPICA is a lightweight AI framework that builds a personalized knowledge base from user data, enabling faster, more authentic communication without sacrificing the user's unique voice. Validated with 200 synthetic user profiles and real-world AAC users, SPICA delivers contextually grounded responses that adapt to each individual in real time.",
             "url": "https://dl.acm.org/doi/10.1145/3742413.3789116"
         },
         {
-            "title": "Developing Artificial Intelligence Applications for Human Conversation: Perspectives, Tools, Exploratory Analyses",
+            "title": "ATOB Journal, Vol. 19 (2025): Developing Artificial Intelligence Applications for Human Conversation: Perspectives, Tools, Exploratory Analyses",
             "summary": "This paper examines how conversational AI (CAI) can improve speech-generating devices (SGDs) for real-world social interaction. It reviews conversational principles and augmented communication dynamics, proposes evaluation tools for assessing CAI-driven interaction, and applies them to a working prototype. The paper also explores how existing CAI technologies can be integrated into SGDs to make communication more natural and effective for AAC users.",
             "url": "https://www.proquest.com/scholarly-journals/voices-academia-developing-artificial/docview/3230953748/se-2"
         }
@@ -238,7 +238,7 @@
                 },
                 {
                 "img_path": "portfolio_media/cross-stitch.jpg",
-                "caption": "Embroidery"
+                "caption": "Cross-stitch Needlework"
                 }
             ]
         } 
